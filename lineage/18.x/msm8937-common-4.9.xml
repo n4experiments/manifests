@@ -2,7 +2,7 @@
 <manifest>
 
   <!--Device repos--> 
-  <project path="device/motorola/montana" name="moto-msm8937/android_device_motorola_montana" revision="be3086886ab8503165d3681a46ad7ec86dbb8fa8" />
+  <project path="device/motorola/montana" name="moto-msm8937/android_device_motorola_montana" revision="8503f45dddd83ede036a0cd26a08bf9555d22680" />
   <project path="device/motorola/cedric" name="moto-msm8937/android_device_motorola_cedric" revision="cba64b0e7f398f8de72961c492620e8ae432fd06" />
   <project path="device/motorola/msm8937-common" name="moto-msm8937/android_device_motorola_msm8937-common" revision="40a883ad6d83c82307ae58ecc71654862fbc800f" />
   <project path="kernel/motorola/msm8953" name="n4experiments/msm-4.9-new" revision="lineage-18.1-rebase-2" />
@@ -10,7 +10,7 @@
 
   <!--Forks-->
   <remove-project name="LineageOS/android_build" />
-  <project path="build/make" name="LineageOS/android_build" groups="pdk" revision="03d9dcfced475db6f4b6111f70381cad68d9d80b" >
+  <project path="build/make" name="LineageOS/android_build" groups="pdk" revision="e129240bf3c80a8dc15a5eb1ab289c50f4f879bc" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -25,7 +25,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <remove-project name="LineageOS/android_vendor_lineage" />
-  <project path="vendor/lineage" name="LineageOS/android_vendor_lineage" revision="0e101dc5a104c9490f1895d962fa6d3488df1f97" />
+  <project path="vendor/lineage" name="LineageOS/android_vendor_lineage" revision="fad4142e6e5b990e5e147a233c87cd1cc0ef1603" />
   
   <!--Dependencies-->
   <project path="external/bson" name="LineageOS/android_external_bson" />
