@@ -6,9 +6,7 @@
   <project path="device/motorola/msm8937-common" name="moto-msm8937/android_device_motorola_msm8937-common" revision="40a883ad6d83c82307ae58ecc71654862fbc800f" />
   <project path="kernel/motorola/msm8953" name="n4experiments/msm-4.9-new" revision="lineage-18.1-rebase-2" />
   <project path="vendor/motorola" name="moto-msm8937/proprietary_vendor_motorola" revision="4bfee12c11aecc1bfe5ff1d48225007b7e1cb507" />
-
   <!--Dependencies-->
   <project path="external/bson" name="LineageOS/android_external_bson" />
   <project path="system/qcom" name="LineageOS/android_system_qcom" />
-  
 </manifest>
