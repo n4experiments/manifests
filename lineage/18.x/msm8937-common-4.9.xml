@@ -10,5 +10,5 @@
   <!--Dependencies-->
   <project path="external/bson" name="LineageOS/android_external_bson" />
   <project path="system/qcom" name="LineageOS/android_system_qcom" />
-
+  
 </manifest>
