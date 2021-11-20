@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
   <!--Device repos--> 
   <project path="device/motorola/montana" name="moto-msm8937/android_device_motorola_montana" revision="8503f45dddd83ede036a0cd26a08bf9555d22680" />
   <project path="device/motorola/cedric" name="moto-msm8937/android_device_motorola_cedric" revision="cba64b0e7f398f8de72961c492620e8ae432fd06" />
